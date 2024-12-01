@@ -21,6 +21,7 @@ body {
     background-color: #007BFF;
     color: white;
     padding: 0 20px;
+    overflow: hidden;
     position: relative;
     gap: 5%;
 }
