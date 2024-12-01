@@ -491,7 +491,7 @@ button[type="submit"]:hover {
 @media (max-width: 768px) {
     .hero {
         flex-direction: column;
-        height: 30%;
+        height: auto;
         padding: 40px 20px;
     }
 
