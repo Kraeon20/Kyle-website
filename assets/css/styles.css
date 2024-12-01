@@ -489,65 +489,88 @@ button[type="submit"]:hover {
 
 
 @media (max-width: 768px) {
-    .header h1 {
-        font-size: 2.5rem;
-    }
-
-    .header p {
-        font-size: 1.2rem;
-    }
-
-    .cta-button {
-        padding: 12px 30px;
-        font-size: 1rem;
-    }
-
     .hero {
         flex-direction: column;
+        /* Stack elements vertically */
+        height: auto;
+        /* Allow height to adjust */
+        padding: 40px 20px;
+        /* Add padding for smaller screens */
     }
 
-    .hero-image {
-        max-width: 80%;
-        margin-top: 20px;
-        border-radius: 50%;
+    .hero-text {
+        text-align: center;
+        /* Center text on smaller screens */
+        padding: 0;
+        /* Remove padding */
+        color: #333;
+        /* Change text color to dark for better visibility */
     }
 
     .hero-text h1 {
         font-size: 2.5em;
+        /* Adjust heading size */
+        color: #333;
+        /* Darker color for heading */
     }
 
-    .join-form {
-        padding: 10px;
+    .hero-text p {
+        font-size: 1.2em;
+        /* Adjust paragraph size */
+        color: #333;
+        /* Darker color for paragraph */
     }
 
-    .affiliate-logo {
-        width: 100px;
+    .cta-button {
+        padding: 12px 30px;
+        /* Adjust button padding */
+        font-size: 1rem;
+        /* Adjust button font size */
+    }
+
+    .hero-image {
+        max-width: 80%;
+        /* Increase image size on smaller screens */
+        margin-top: 20px;
+        /* Add margin for spacing */
+        border-radius: 50%;
+        /* Keep the circular shape */
+    }
+
+    .social-icon {
+        width: 30px;
+        /* Adjust social icon size for smaller screens */
+        height: 30px;
+        /* Adjust social icon size for smaller screens */
+    }
+
+    .background-image {
+        width: 200%;
+        /* Adjust background image width for smaller screens */
+        margin-left: -25%;
+        /* Center the background image */
     }
 }
 
 @media (max-width: 480px) {
-    .header h1 {
+    .hero-text h1 {
         font-size: 2rem;
+        /* Further adjust heading size */
+        color: #333;
+        /* Darker color for heading */
     }
 
-    .header p {
+    .hero-text p {
         font-size: 1rem;
+        /* Further adjust paragraph size */
+        color: #333;
+        /* Darker color for paragraph */
     }
 
     .cta-button {
         padding: 10px 20px;
+        /* Further adjust button padding */
         font-size: 0.9rem;
-    }
-
-    .gallery {
-        grid-template-columns: 1fr;
-    }
-
-    .gallery-item {
-        padding: 10px;
-    }
-
-    .affiliate-logo {
-        width: 80px;
+        /* Further adjust button font size */
     }
 }
